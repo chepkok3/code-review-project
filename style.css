@@ -1,0 +1,78 @@
+@media (min-width: 768px) {
+  #navbar {
+    text-align: left;
+    position: fixed;
+    left: 100px;
+  }
+}
+
+.wrapper .sidebar {
+  background: rgb(red, green, blue);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  padding: 25px;
+  transition: all 0.5s ease;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.content {
+  display: flex;
+  padding-top: 113px;
+  color: #344563;
+  padding: 24px;
+  margin: auto;
+  gap: 12px;
+  background-position: right top;
+  background-repeat: no-repeat;
+  font-family: poppins, sans-serif;
+}
+
+.main-doc {
+  display: flex;
+  justify-content: center;
+  color: #344563;
+  padding: 16px;
+  margin: auto;
+  gap: 12px;
+  background-color: #fff;
+  padding-left: 260px;
+  padding-right: 260px;
+}
+
+.methods {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 120px;
+  letter-spacing: 0.37px;
+  text-align: left;
+}
+
+.main-section p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #344563;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90rem;
+  margin: auto;
+  padding: 1rem;
+}
